@@ -44,7 +44,7 @@ sudo nmap -sC -sV -p- 10.129.37.218 --min-rate 2000 -oN facts_nmap
 * Open ports: 22,80,54321
 ---
 
-### 🌍 Web Enumeration (if applicable)
+### 🌍 Web Enumeration
 
 ```bash
 ffuf -u http://facts.htb/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-small-directories-lowercase.txt
