@@ -13,7 +13,7 @@
 
 This report documents the penetration testing process of the **Facts** machine from Hack The Box.
 
-The objective was to identify vulnerabilities, exploit them, and achieve full system compromise (user + root).
+The objective was to identify vulnerabilities,exploit them and achieve full system compromise (user + root).
 The given attack box is vulnerable to broken authentication access vulnerability. Which gives and user from internet to register it self on application and then change his role to Admin due to unsanitized code in the password change step.
 
 Next vulnerability is the Directory Traversal via download_private_file .It allows user with admin access to get files from server.Which leads to ssh private file disclosure.
