@@ -163,44 +163,6 @@ rlwrap nc -lnvp 4444
 
 ---
 
-
-## 📸 Evidence
-
-
-![[nmap1.png]]
-
-
-![[nmap2.png]]
-
-
-
-![[Fuzzing.png]]
-
-
-![[cms.png]]
-
-![[pre-foothold.png]]
-
-
-
-![[admin.png]]
-
-![[pre-foothold.png]]
-
-
-![[foothold.png]]
-
-![[root.png]]
-
-![[path-to-root.png]]
-
-![[root 1.png]]
-![[root-taken.png]]
-
-
-
----
-
 ## 🛡️ Remediation Summary
 
 🔴 Short Term
