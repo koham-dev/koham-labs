@@ -2,12 +2,12 @@
 
 ---
 
-Machine Name : Facts
-OS : Linux
-Difficulty : Easy
-IP Address : 10.129.37.218
-Release Date : 4 FEB 2026
-Pwned Date : 4 FEB 2026
+| **Machine Name** | **Facts**     |
+| ---------------- | ------------- |
+| Difficulty       | Easy          |
+| IP Address       | 10.129.37.218 |
+| Release Date     | 4 FEB 2026    |
+| Pwned Date       | 4 FEB 2026    |
 
 ---
 #### Table of Contents 
@@ -30,7 +30,7 @@ This report documents the penetration testing process of the Facts machine from 
 
 The given attack box is vulnerable to two CVE's, CVE-2025-2304 and CVE-2024-46987.Which gives the user from internet to register it self on application and then change his role to Admin due to 'permit!' method in the updated_ajax action.Which then leads to use of CVE-2024-46987 that gives us the path traversal functionality tends to sensitive information dis-closer from server.
 
-You will find full attack chain and screenshots for this in later sections.
+You can find full attack chain and screenshots for that in later sections.
 
 ---
 ### 2.Reconnaissance
