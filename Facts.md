@@ -12,16 +12,16 @@
 ---
 #### Table of Contents 
 
-1. Executive Summary
-2. Reconnaissance
-	2.1  Port Scanning
-	2.2  Web Enumeration
-	2.3  Service  Enumeration 
-4. Initial Access
-5. Lateral Movement
-6. Privilege Escalation
-7. Proofs
-8. References
+#### 1. Executive Summary
+#### 2. Reconnaissance
+##### 	2.1  Port Scanning
+##### 	2.2  Web Enumeration
+##### 	2.3  Service  Enumeration 
+#### 4. Initial Access
+#### 5. Lateral Movement
+#### 6. Privilege Escalation
+#### 7. Proofs
+#### 8. References
 
 ---
 ### 1.Executive Summary
