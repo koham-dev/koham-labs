@@ -2,7 +2,7 @@
 
 ---
 
-| **Machine Name** | **Facts**     |
+| **Machine Name** |**Facts**     |
 | ---------------- | ------------- |
 | Difficulty       | Easy          |
 | IP Address       | 10.129.37.218 |
