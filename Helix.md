@@ -2,12 +2,13 @@
 
 ---
 
-Machine Name : Helix
-OS : Linux
-Difficulty : Medium
-IP Address : 10.129.7.185
-Release Date : 9 MAY 2026
-Pwned Date : 1 JUNE 2026
+| Machine Name | Helix        |
+| ------------ | ------------ |
+| OS           | LInux        |
+| Difficulty   | Mediium      |
+| IP Address   | 10.129.7.185 |
+| Release Date | 9 MAY 2026   |
+| Pwned Date   | 1  JUNE 2026 |
 
 ---
 
