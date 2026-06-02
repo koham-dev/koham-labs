@@ -17,7 +17,7 @@
 ##### 1. Executive Summary
 ##### 2. Reconnaissance
    ###### 2.1  Port Scanning
-   ###### 2.3.  Web Enumeration 
+   ###### 2.2.  Web Enumeration 
 ##### 3. Initial Access / Foothold
 ##### 4. Lateral Movement  (if applicable)
 ##### 5. Privilege Escalation
