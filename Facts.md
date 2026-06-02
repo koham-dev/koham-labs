@@ -28,7 +28,7 @@
 
 This report documents the penetration testing process of the Facts machine from Hack The Box.The objective was to identify vulnerabilities and exploit them to achieve full system compromise (user + root). 
 
-The given attack box is vulnerable to two CVE's, CVE-2025-2304 and CVE-2024-46987.Which gives the user from internet to register it self on application and then change his role to Admin due to 'permit!' method in the updated_ajax action.Which then leads to use of CVE-2024-46987 that gives us the path traversal functionality tends to sensitive information dis-closer from server.
+The given attack box is vulnerable to two CVE's, CVE-2025-2304 and CVE-2024-46987.Which allows external users to register accounts and elevate privileges to Admin due to 'permit!' method in the updated_ajax action.Which then leads to use of CVE-2024-46987 that gives us the path traversal functionality tends to sensitive information dis-closer from server.
 
 You can find full attack chain and screenshots for that in later sections.
 
