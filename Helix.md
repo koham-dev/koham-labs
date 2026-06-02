@@ -52,7 +52,7 @@ Helix.htb
 Added this to our /etc/hosts file.
 ##### 2.2 Service Enumeration :
 
-As we have landed on the web server http://helix.htb/. Their is nothing interesting on this so we look forward for any subdomain present on this or not.
+As we have landed on the web server http://helix.htb/. There is nothing interesting on this so we look forward for any subdomain present on this or not.
 
 Sub-Domain Enumeration :-
 
@@ -122,7 +122,7 @@ For this i have checked that sudo -l gives us ability to run helix-maint-console
 Before that,
 I have noticed that their are two files on operator's home directory with the help of python3 on server we can create a temporary server and get that files on our machine.So i done that.
 
-In this file's  one is image and another is pdf file. Pdf dile is protected with password so i tried pdf2john here and what i have found the password for this pdf in rockyou.txt .
+In this file's  one is image and another is pdf file. Pdf file is protected with password so i tried pdf2john here and what i have found the password for this pdf in rockyou.txt .
 
 Using that password i have check the pdf and gave that pdf to gemini to analyse that for me and get note from that as we need this information to create a script to execute a sequence to achieve certain conditions. 
 
