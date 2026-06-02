@@ -133,7 +133,7 @@ ssh2john able to crack that password.The password is found in rockyou.txt .
 With that password we can now ssh as user trivia.
 
 ```
-ssh -i id_ed25519 trivia@10.129.37.128
+ssh -i id_ed25519 trivia@10.129.37.218
 ```
 
 **Access gained as user : trivia**
