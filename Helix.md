@@ -4,7 +4,7 @@
 
 | Machine Name | Helix        |
 | ------------ | ------------ |
-| OS           | LInux        |
+| OS           | Linux        |
 | Difficulty   | Mediium      |
 | IP Address   | 10.129.7.185 |
 | Release Date | 9 MAY 2026   |
