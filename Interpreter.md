@@ -14,15 +14,15 @@
 ---
 #### Table of Contents 
 
-1. Executive Summary
-2. Reconnaissance
-   2.1  Port Scanning
-   2.3.  Web Enumeration 
-3. Initial Access / Foothold
-4. Lateral Movement  (if applicable)
-5. Privilege Escalation
-6. Proof's
-7. References
+##### 1. Executive Summary
+##### 2. Reconnaissance
+   ###### 2.1  Port Scanning
+   ###### 2.3.  Web Enumeration 
+##### 3. Initial Access / Foothold
+##### 4. Lateral Movement  (if applicable)
+##### 5. Privilege Escalation
+##### 6. Proof's
+##### 7. References
 
 
 ---
