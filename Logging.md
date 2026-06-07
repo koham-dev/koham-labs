@@ -29,7 +29,11 @@
 
 #### 1. Executive Summary
 
-This report documents the penetration testing process of the "Name" machine from Hack The Box.The objective was to identify vulnerabilities and exploit them to achieve full system compromise (user + root). 
+This report documents the penetration testing process of the "Logging" machine from Hack The Box.The objective was to identify vulnerabilities and exploit them to achieve full system compromise (user + root). 
+
+We have default credentials with us,from that we found that user svc_recovery has GenericWrite permission on MSA_HEALTH$ user.Investing shares on server leaks the credentials for user svc_recovery that leads to msa_health$ user account takeover.msa_health$ user has a task running on server which will gives us the shell as 'jaylee.clifton' . 
+
+We have got a administrator access but that is not an ideal path which hackthebox was accepting from us,but the technique that we have used in this writeup is also a way to takeover an administrator account.
 
 
 ---
@@ -44,39 +48,12 @@ sudo nmap -sC -sV -p- 10.129.245.130 --min-rate 3000 -oN nmap_scan_logging
 
 Finding :
 
-53/tcp    open  domain        Simple DNS Plus
-80/tcp    open  http          Microsoft IIS httpd 10.0
-88/tcp    open  kerberos-sec  Microsoft Windows Kerberos 
-135/tcp   open  msrpc         Microsoft Windows RPC
-139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
-389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: logging.htb)
-445/tcp   open  microsoft-ds?
-464/tcp   open  kpasswd5?
-593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
-636/tcp   open  ssl/ldap      Microsoft Windows Active Directory LDAP
-3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP
-3269/tcp  open  ssl/ldap      Microsoft Windows Active Directory LDAP 
-5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
-8530/tcp  open  http          Microsoft IIS httpd 10.0
-8531/tcp  open  ssl/unknown
-9389/tcp  open  mc-nmf        .NET Message Framing
-47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 
-49664/tcp open  msrpc         Microsoft Windows RPC
-49665/tcp open  msrpc         Microsoft Windows RPC
-49666/tcp open  msrpc         Microsoft Windows RPC
-49667/tcp open  msrpc         Microsoft Windows RPC
-49673/tcp open  msrpc         Microsoft Windows RPC
-49695/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
-49696/tcp open  msrpc         Microsoft Windows RPC
-49700/tcp open  msrpc         Microsoft Windows RPC
-49715/tcp open  msrpc         Microsoft Windows RPC
-49753/tcp open  msrpc         Microsoft Windows RPC
-49791/tcp open  msrpc         Microsoft Windows RPC
-49798/tcp open  msrpc         Microsoft Windows RPC
+Open Ports :
+53,80,88,135,139,389,445,464,593,636,3268,5985,8530,8531,9389,47001,49664,49665,49666,49667,49673,49695,49696,49700,49715,49753,49791,49798
 
+Domain found : logging.htb and DC01.logging.htb
 
 Default Creds : wallace.everette / Welcome2026@
-
 
 ---
 
