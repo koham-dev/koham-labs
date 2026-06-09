@@ -5,7 +5,7 @@
 | Machine Name | Administrator |
 | ------------ | ------------- |
 | OS           | Windows       |
-| Difficulty   |               |
+| Difficulty   | Medium              |
 | IP Address   | 10.129.11.227 |
 | Release Date | 9 Nov 2024    |
 | Pwned Date   | 9 June 2026   |
