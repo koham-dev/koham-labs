@@ -177,7 +177,7 @@ In command section we can use the revshell for windows and get shell back as an 
 ---
 
 #### 
-#### 6. Proof's
+#### 6. Proof
 
 ![](attachment/c1052e0a05e4518e7289e7c83fdc8ff4.png)
 
