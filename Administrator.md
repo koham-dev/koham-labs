@@ -168,7 +168,7 @@ evil-winrm -i 10.129.11.227 -u 'Administrator' -H '3dc553ce4b9fd20bd016e098d2d2f
 
 ---
 
-#### 6. Proof's
+#### 6. Proof
 
 ![](attachment/d097fb9af02209d4bb00f07466ccc809.png)
 
