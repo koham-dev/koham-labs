@@ -181,7 +181,7 @@ mount
 
 ---
 
-#### 6. Proof's
+#### 6. Proof
 
 ![](attachment/b9355811af50214f6d56a35c14392f11.png)
 
