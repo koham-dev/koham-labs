@@ -186,7 +186,7 @@ impacket-psexec -k -no-pass DC01.garfiled.htb
 
 ---
 
-#### 6. Proof's
+#### 6. Proof
 
 ![](attachment/36c65f92f1c13d4c41b47efd3a657c58.png)
 
