@@ -182,7 +182,7 @@ Then you can get root flag.
 
 ---
 
-#### 6. Proof's
+#### 6. Proof
 
 
 ![](attachment/3152687bfdb61c53d08b78d3349f80b9.png)
