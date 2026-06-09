@@ -170,7 +170,7 @@ sudo /usr/local/sbin/helix-maint-console  it will handover us the root shell.
 
 ---
 
-#### 6. Proof's
+#### 6. Proof
 
 ![](attachment/6d5cc72b6b55905f1a9d5343856cd34e.png)
 
