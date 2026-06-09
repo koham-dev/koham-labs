@@ -184,7 +184,7 @@ impacket-wmiexec -hashes :184fb5e5178480be64824d4cd53b99ee administrator@10.129.
 
 ---
 
-#### 6. Proof's
+#### 6. Proof
 
 ![](attachment/0592b92b53cb9a7d24fa3a510c3906f4.png)
 
